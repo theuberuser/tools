@@ -1,7 +1,17 @@
 #!/bin/bash
 
 # A dumb tool I wrote for a prompt in Music League (https://musicleague.com/)
-# TODO: Add Spotify library support
+# Features to add:
+# - Add Spotify library support
+# - Search for songs with BPM X
+# - Search for songs that contain word
+# - Search for songs with feat.
+# - Search for songs by Mix type
+# - Search for songs with more than one artist
+# - Search for songs on release date
+# - Search for songs with length
+# - Search for songs by artist X
+# - Search for songs by label X
 
 if [[ $# -lt 2 ]]; then
     COUNT=5
